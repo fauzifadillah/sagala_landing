@@ -3,33 +3,56 @@
     <v-row justify="end" class="mr-10">
       <p class="headline ma-1 pa-4 ml-12">RECENT WORK</p>
     </v-row>
-    <v-row id="port1">
-      <v-col cols="6" md="4">
-        <img :src="require(`../assets/port-1-1.jpg`)" />
+    <!-- <v-row id="port1">
+      <v-col class="pa-0" cols="auto" sm="8" md="12">
+        <img :src="require(`../assets/porto/all.png`)" />
       </v-col>
-      <v-col cols="12" md="8">
-        <img :src="require(`../assets/port-1-2.jpg`)" />
+    </v-row> -->
+    <v-row id="port1">
+      <v-col class="pa-0" cols="auto" sm="8" md="12">
+        <img :src="require(`../assets/porto/coba2.jpg`)" />
+      </v-col>
+    </v-row>
+    <!-- <v-row id="port1">
+      <v-col class="pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/1-0.png`)" />
       </v-col>
     </v-row>
     <v-row id="port2">
-      <v-col cols="6" md="4">
-        <img :src="require(`../assets/port-2-1.jpg`)" />
-      </v-col>
-      <v-col cols="6" md="4">
-        <img :src="require(`../assets/port-2-2.jpg`)" />
-      </v-col>
-      <v-col cols="6" md="4">
-        <img :src="require(`../assets/port-2-3.jpg`)" />
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/2-0.png`)" />
       </v-col>
     </v-row>
     <v-row id="port3">
-      <v-col cols="6" md="4">
-        <img id="port3-1" :src="require(`../assets/port-3-1.jpg`)" />
-      </v-col>
-      <v-col class="pr-0" cols="12" md="8">
-        <img id="port3-2" :src="require(`../assets/port-3-2.jpg`)" />
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/3-0.png`)" />
       </v-col>
     </v-row>
+    <v-row id="port4">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/4.png`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port5">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/5.png`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port6">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/6.png`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port7">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/7.png`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port8">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/8.png`)" />
+      </v-col>
+    </v-row> -->
   </v-row>
 </template>
 <style scoped>
@@ -37,42 +60,77 @@
   /* background: url('~assets/layer.png'); */
   /* background-size: cover; */
 }
+@media screen and (max-width: 768px) {
+  #port1 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+}
 #port1 img {
   object-fit: cover;
   max-width: 100%;
-  height: 700px;
+  /* padding-top: 5px; */
 }
 #port2 img {
   object-fit: cover;
   max-width: 100%;
-  height: 700px;
+  padding-top: 5px;
 }
 
 #port3 img {
   object-fit: cover;
   max-width: 100%;
+  padding-top: 5px;
+  /* height: 400px;
+  width: 250px; */
+}
+
+#port-3-1 {
+  /* background: url('~assets/porto/3-1.jpg'); */
+  /* background-size: cover; */
+}
+
+#port-3-2 {
+  /* background: url('~assets/porto/3-2.jpg'); */
+  /* background-size: cover; */
+}
+
+#port-3-3 {
+  /* background: url('~assets/porto/3-3.jpg'); */
+  /* background-size: cover; */
+}
+#port4 img {
+  object-fit: cover;
+  max-width: 100%;
+  padding-top: 5px;
   /* height: 700px; */
 }
-
-#port3-1 {
+#port5 img {
   object-fit: cover;
   max-width: 100%;
-  width: 100%;
-  /* height: 750px; */
+  padding-top: 1px;
+  /* height: 700px; */
 }
-
-#port3-2 {
+#port6 img {
   object-fit: cover;
   max-width: 100%;
-  width: 100%;
-  /* width: fill; */
-  /* height: 650px; */
+  padding-top: 5px;
+  /* height: 700px; */
 }
-
-#port4-1 {
+#port7 img {
   object-fit: cover;
   max-width: 100%;
-  /* height: 750px; */
+  padding-top: 5px;
+  /* height: 700px; */
+}
+#port8 img {
+  object-fit: cover;
+  max-width: 100%;
+  padding-top: 5px;
+  /* height: 700px; */
 }
 </style>
 <script>

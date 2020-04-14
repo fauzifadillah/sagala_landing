@@ -8,6 +8,7 @@
 <style scoped>
 #proj {
   background: url('~assets/layer.png');
+  max-width: 100%;
   /* background-size: cover; */
 }
 </style>

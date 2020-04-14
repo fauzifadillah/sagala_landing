@@ -1,5 +1,5 @@
 <template>
-  <v-row id="port2" justify="start" align="start" fill-height fluid>
+  <v-container id="layer" class="container ma-0 pa-0" fill-height fluid>
     <v-col id="head" cols="12" lg="6">
       <div style="text-align:left;">
         <img
@@ -39,12 +39,16 @@
     <v-col cols="12" lg="6" justify="center" align="center">
       <img :src="require(`../assets/about.png`)" />
     </v-col>
-  </v-row>
+  </v-container>
 </template>
 <style scoped>
 #head {
   justify-items: center;
   align-items: center;
+}
+#layer {
+  background: url('~assets/layer.png');
+  background-size: cover;
 }
 </style>
 <script>

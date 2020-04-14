@@ -27,6 +27,7 @@ export default {
 <style>
 .container {
   margin: 0 auto;
+  max-width: 100%;
   min-height: 100vh;
   display: flex;
   justify-content: center;

@@ -19,10 +19,11 @@
           SAGALA
         </v-btn>
         <v-spacer />
-        <v-btn to="about" color="white" text class="my-2 mr-8">
+        <v-btn id="about" to="about" color="white" text class="my-2 mr-8">
           ABOUT US
         </v-btn>
         <v-btn
+          id="instagram"
           href="http://instagram.com/sagala___"
           color="white"
           text
@@ -30,7 +31,7 @@
         >
           INSTAGRAM
         </v-btn>
-        <v-btn to="contact" color="white" text class="my-2 mr-8">
+        <v-btn id="contact" to="contact" color="white" text class="my-2 mr-8">
           CONTACT
         </v-btn>
       </v-row>
@@ -61,6 +62,15 @@
   }
   #footers {
     font-size: 21px;
+  }
+  #about {
+    font-size: 12px;
+  }
+  #instagram {
+    font-size: 12px;
+  }
+  #contact {
+    font-size: 12px;
   }
 }
 </style>
