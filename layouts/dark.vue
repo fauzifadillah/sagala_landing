@@ -6,7 +6,9 @@
 
     <v-content>
       <v-container class="ma-0" pa-0 fill-height fluid>
-        <img id="logo" class="ma-5 pa-7" src="~assets/logo.png" />
+        <nuxt-link to="/">
+          <img id="logo" class="ma-5 pa-7" src="~assets/logo.png" />
+        </nuxt-link>
         <nuxt />
       </v-container>
     </v-content>

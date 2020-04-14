@@ -1,9 +1,18 @@
 <template>
-  <v-row id="port2" justify="center" align="center" fill-height fluid>
+  <v-row id="port2" justify="start" align="start" fill-height fluid>
     <v-col id="head" cols="12" lg="6">
-      <img class="pa-4 ml-12" :src="require(`../assets/abouthead.png`)" />
-      <p class="display-2 ma-1 pa-4 ml-12">/ ABOUT US</p>
-      <p class="text-lg ma-1 pa-4 ml-12">
+      <div style="text-align:left;">
+        <img
+          justify="start"
+          align="start"
+          class="pa-4 ml-12"
+          :src="require(`../assets/abouthead.png`)"
+        />
+      </div>
+      <p justify="start" align="start" class="display-2 ma-1 pa-4 ml-12">
+        / ABOUT US
+      </p>
+      <p justify="start" align="start" class="text-lg ma-1 pa-4 ml-12">
         / SAGALA, a technology-based creative industry company in Bandung
         especially in information and design systems was founded in 2020. We
         have 3 main divisions, namely the Technology Division which consists of:
@@ -18,7 +27,14 @@
         your business and creative things to produce creativity based on
         technology.
       </p>
-      <img class="pa-4 ml-12" :src="require(`../assets/abouthead.png`)" />
+      <div style="text-align:left;">
+        <img
+          justify="start"
+          align="start"
+          class="pa-4 ml-12"
+          :src="require(`../assets/abouthead.png`)"
+        />
+      </div>
     </v-col>
     <v-col cols="12" lg="6" justify="center" align="center">
       <img :src="require(`../assets/about.png`)" />

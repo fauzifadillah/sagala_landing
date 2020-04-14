@@ -1,6 +1,8 @@
 <template>
   <v-container id="layer" class="container" fluid>
-    <img id="logo" class="ma-5 pa-7" src="~assets/logo.png" />
+    <nuxt-link to="/">
+      <img id="logo" class="ma-5 pa-7" src="~assets/logo.png" />
+    </nuxt-link>
   </v-container>
 </template>
 
