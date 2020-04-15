@@ -162,7 +162,7 @@
   }
   #footers {
     font-size: 21px;
-    display: block;
+    display: none;
   }
   #about {
     font-size: 12px;
