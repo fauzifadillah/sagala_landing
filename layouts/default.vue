@@ -22,7 +22,7 @@
         <v-icon>mdi-close-thick</v-icon>
       </v-btn>
       <v-list justify="center" align="center" style="align-items:'center'">
-        <v-list-item
+        <!-- <v-list-item
           v-for="(item, i) in items"
           :key="i"
           :to="item.to"
@@ -33,6 +33,38 @@
         >
           <v-list-item-content justify="center" align="center">
             <v-list-item-title style="font-size: 40px;" v-text="item.title" />
+          </v-list-item-content>
+        </v-list-item> -->
+        <v-list-item to="/" router exact justify="center" align="center">
+          <v-list-item-content justify="center" align="center">
+            <v-list-item-title style="font-size: 40px;">HOME</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item to="/about" router exact justify="center" align="center">
+          <v-list-item-content justify="center" align="center">
+            <v-list-item-title style="font-size: 40px;"
+              >ABOUT</v-list-item-title
+            >
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          href="http://instagram.com/sagala___"
+          router
+          exact
+          justify="center"
+          align="center"
+        >
+          <v-list-item-content justify="center" align="center">
+            <v-list-item-title style="font-size: 40px;"
+              >INSTAGRAM</v-list-item-title
+            >
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item to="/contact" router exact justify="center" align="center">
+          <v-list-item-content justify="center" align="center">
+            <v-list-item-title style="font-size: 40px;"
+              >CONTACT</v-list-item-title
+            >
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -75,7 +107,13 @@
 
     <v-footer id="footer_id" color="transparent" fixed padless>
       <v-row id="footer_row_id" class="my-6" justify="end" no-gutters>
-        <v-btn id="footers" color="white" text class="my-2 ml-4">
+        <v-btn
+          id="footers"
+          href="http://sagalagroup.com"
+          color="white"
+          text
+          class="my-2 ml-4"
+        >
           SAGALA
         </v-btn>
         <v-spacer />
@@ -198,7 +236,8 @@ export default {
       {
         icon: '',
         title: 'INSTAGRAM',
-        to: 'http://instagram.com/sagala___'
+        to: 'http://instagram.com/sagala___',
+        href: 'http://instagram.com/sagala___'
       },
       {
         icon: '',

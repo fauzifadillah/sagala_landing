@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */ /* eslint-disable prettier/prettier */
 <template>
   <v-container id="layer" class="container ma-0 pa-0" fill-height fluid>
     <v-col id="head" cols="12" lg="6">
@@ -13,19 +14,20 @@
         / ABOUT US
       </p>
       <p justify="start" align="start" class="text-lg ma-1 pa-4 ml-12">
-        / SAGALA, a technology-based creative industry company in Bandung
-        especially in information and design systems was founded in 2020. We
-        have 3 main divisions, namely the Technology Division which consists of:
-        Big Data Analytics, IOT Platform, Full-Pack Application Development,
-        Security Penetration Services, End - to - End E - Commerce development,
-        Control and Monitoring systems, Laboratory Management Systems, POA
-        Platform (Point of Sale), Creative and Design Division and Strategic
-        Planning Creative and Event. Sagala emerged based on creativity and
-        technology aimed at developing the technology-based creative industry
-        sector. We believe, by using technology and creativity to the maximum
-        level, it will maximize your business. Sagala will be ready to serve
-        your business and creative things to produce creativity based on
-        technology.
+        SAGALA, is a creative technology company in Bandung since 2020.<br />
+        Our Vision is improving businesses through the collaboration of
+        Technology and Creativity<br /><br />We provide 3 main solutions:
+        <br /><br />
+        First, The TechSol (Technology-based Solution), such as: Data Discovery,
+        IoT Platform, Full-Stack Application Development, End-to-End E-Commerce
+        Development, POS Platform (Point of Sale). <br /><br />
+        Second, The C&D (Creative and Design Solution) such as: Branding
+        activation (marketing kit), Social media activation (content), Company
+        profile, Event documentary, Product campaign, Web design.<br /><br />
+        Third, The Strategic Planning Creative and Event Solution, such as:
+        Event production and Running event. <br /><br />
+        We believe, with the power of technology and creativity, we can solve
+        all of your business problem in just a solution.
       </p>
       <div style="text-align:left;">
         <img
