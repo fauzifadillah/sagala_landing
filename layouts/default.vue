@@ -61,6 +61,15 @@
         <h2 id="persist" class="subtitle">
           CREATIVE TECHNOLOGY
         </h2>
+        <v-img
+          id="logomb"
+          class="mx-2"
+          :src="require('@/assets/logomb.png')"
+          height="250"
+          width="250"
+          contain
+        >
+        </v-img>
       </v-container>
     </v-content>
 
@@ -112,6 +121,16 @@
   left: 17%;
   -webkit-font-smoothing: antialiased;
 }
+#logomb {
+  position: fixed;
+  font-weight: 600;
+  color: white;
+  font-size: 50px;
+  top: 40%;
+  left: 17%;
+  -webkit-font-smoothing: antialiased;
+  display: none;
+}
 #footers {
   font-size: 31px;
 }
@@ -130,6 +149,16 @@
     left: 12%;
     font-size: 24px;
     display: none;
+  }
+  #logomb {
+    position: fixed;
+    font-weight: 600;
+    color: white;
+    font-size: 50px;
+    top: 40%;
+    left: 12%;
+    -webkit-font-smoothing: antialiased;
+    display: block;
   }
   #footers {
     font-size: 21px;
