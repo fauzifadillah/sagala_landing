@@ -36,12 +36,30 @@
         />
       </div>
     </v-col>
-    <v-col cols="12" lg="6" justify="center" align="center">
+    <v-col id="abt" cols="12" lg="6" justify="center" align="center">
       <img :src="require(`../assets/about.png`)" />
     </v-col>
   </v-container>
 </template>
 <style scoped>
+@media screen and (max-width: 768px) {
+  #abt img {
+    height: 200px;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 0px;
+  }
+
+  #head {
+    margin-right: 48px;
+  }
+}
 #head {
   justify-items: center;
   align-items: center;

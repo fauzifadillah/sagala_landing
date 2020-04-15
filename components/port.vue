@@ -8,51 +8,79 @@
         <img :src="require(`../assets/porto/all.png`)" />
       </v-col>
     </v-row> -->
-    <v-row id="port1">
+    <!-- <v-row id="port1">
       <v-col class="pa-0" cols="auto" sm="8" md="12">
         <img :src="require(`../assets/porto/coba2.jpg`)" />
       </v-col>
-    </v-row>
-    <!-- <v-row id="port1">
+    </v-row> -->
+    <v-row id="port1">
       <v-col class="pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/1-0.png`)" />
+        <img :src="require(`../assets/porto/1.jpg`)" />
       </v-col>
     </v-row>
     <v-row id="port2">
       <v-col class="mt-0 pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/2-0.png`)" />
+        <img :src="require(`../assets/porto/2.jpg`)" />
       </v-col>
     </v-row>
     <v-row id="port3">
       <v-col class="mt-0 pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/3-0.png`)" />
+        <img :src="require(`../assets/porto/3.jpg`)" />
       </v-col>
     </v-row>
     <v-row id="port4">
       <v-col class="mt-0 pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/4.png`)" />
+        <img :src="require(`../assets/porto/4.jpg`)" />
       </v-col>
     </v-row>
     <v-row id="port5">
       <v-col class="mt-0 pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/5.png`)" />
+        <img :src="require(`../assets/porto/5.jpg`)" />
       </v-col>
     </v-row>
     <v-row id="port6">
       <v-col class="mt-0 pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/6.png`)" />
+        <img :src="require(`../assets/porto/6.jpg`)" />
       </v-col>
     </v-row>
     <v-row id="port7">
       <v-col class="mt-0 pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/7.png`)" />
+        <img :src="require(`../assets/porto/7.jpg`)" />
       </v-col>
     </v-row>
     <v-row id="port8">
       <v-col class="mt-0 pa-0" cols="auto" md="12">
-        <img :src="require(`../assets/porto/8.png`)" />
+        <img :src="require(`../assets/porto/8.jpg`)" />
       </v-col>
-    </v-row> -->
+    </v-row>
+    <v-row justify="end" class="mr-10">
+      <p class="headline ma-1 pa-4 ml-12">SOFTWARE ENGINEERING</p>
+    </v-row>
+    <v-row id="port8">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/9.jpg`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port8">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/10.jpg`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port8">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/12.jpg`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port8">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/11.jpg`)" />
+      </v-col>
+    </v-row>
+    <v-row id="port8">
+      <v-col class="mt-0 pa-0" cols="auto" md="12">
+        <img :src="require(`../assets/porto/13.jpg`)" />
+      </v-col>
+    </v-row>
   </v-row>
 </template>
 <style scoped>
@@ -62,6 +90,55 @@
 }
 @media screen and (max-width: 768px) {
   #port1 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  #port2 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  #port3 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  #port4 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  #port5 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  #port6 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  #port7 {
+    height: 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+  }
+  #port8 {
     height: 100%;
     box-sizing: border-box;
     max-width: 100%;

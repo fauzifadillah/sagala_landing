@@ -9,6 +9,16 @@
     <port />
     <port />
     <port /> -->
+    <v-footer color="transparent" class="text-center white--text" cols="12">
+      <v-col
+        color="transparent"
+        class="text-lg text-center white--text"
+        cols="12"
+      >
+        Copyright {{ new Date().getFullYear() }} &copy;
+        <strong> SAGALAGROUP</strong>
+      </v-col>
+    </v-footer>
   </v-container>
 </template>
 

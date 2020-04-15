@@ -22,6 +22,11 @@
   </v-container>
 </template>
 <style scoped>
+@media screen and (max-width: 768px) {
+  #head {
+    margin-right: 48px;
+  }
+}
 #layer {
   background: url('~assets/contact.png');
   background-size: cover;

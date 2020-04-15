@@ -3,17 +3,28 @@
     <!-- <v-app-bar color="transparent" app clipped-left>
       <v-toolbar-title>SAGALA</v-toolbar-title>
     </v-app-bar> -->
-
+    <v-app-bar id="appbar" color="transparent" fixed no-gutters>
+      <v-icon size="40">mdi-menu</v-icon>
+      <v-spacer />
+      <v-img
+        id="logo_mobile"
+        class="mx-2"
+        :src="require('@/assets/logo.png')"
+        max-height="40"
+        max-width="40"
+        contain
+      ></v-img>
+    </v-app-bar>
     <v-content>
       <v-container class="ma-0" pa-0 fill-height fluid>
         <nuxt-link to="/">
-          <img id="logo" class="ma-5 pa-7" src="~assets/logo.png" />
+          <img id="logo" src="~assets/logo.png" />
         </nuxt-link>
         <nuxt />
       </v-container>
     </v-content>
 
-    <v-footer color="transparent" app padless>
+    <v-footer id="footer_id" color="transparent" fixed padless>
       <v-row class="my-6" justify="end" no-gutters>
         <v-btn id="footers" color="white" text class="my-2 ml-4">
           SAGALA
@@ -37,13 +48,36 @@
     </v-footer>
   </v-app>
 </template>
-<style>
+<style scoped>
+#appbar {
+  display: none;
+}
 #logo {
   position: absolute;
   top: 0;
   right: 0%;
   max-width: 50%;
   width: 7%;
+  margin: 20px;
+  padding: 28px;
+}
+@media screen and (max-width: 768px) {
+  #footer_id {
+    display: none;
+  }
+  #logo {
+    /* position: absolute;
+    top: 0;
+    right: 0%;
+    max-width: 50%;
+    width: 75px;
+    margin: 10px;
+    padding: 18px; */
+    display: none;
+  }
+  #appbar {
+    display: block;
+  }
 }
 #persist {
   position: fixed;
